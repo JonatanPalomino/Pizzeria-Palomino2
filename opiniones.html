@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Opiniones</title>
+        <link rel="stylesheet" href="index-grid.css">
+    </head>
+    <body>
+        <div id="contenedor">
+            <header id="encabezado">
+                <img src="http://via.placeholder.com/150x120" alt="logo" />
+                <h1>Opiniones</h1>
+            </header>
+            <nav id="navegacion">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+            </nav>
+            <main>
+                <form class="texto">
+                    <fieldset>
+                        <legend>Formulario</legend>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" placeholder="Escribí tu nombre" id="nombre" /> <br>
+
+                        <label for="email">E-mail</label>
+                        <input type="email" placeholder="Direccion de email" name="email" id="email" required /> <br>
+
+                        <label for="puntuacion">Puntuacion (de 1-5)</label>
+                        <select name="puntuacion" id="puntuacion">
+                            <option value="1">1 punto</option>
+                            <option value="2">2 puntos</option>
+                            <option value="3">3 puntos</option>
+                            <option value="4">4 puntos</option>
+                            <option value="5">5 puntos</option>
+                        </select> <br>
+                        <label for="comentario">Comentario</label>
+                        <textarea name="comentario" id="comentario" cols="30" rows="10">
+
+                        </textarea><br>
+                        <input type="submit" value="Enviar" />
+                    </fieldset>
+                </form>
+            </main>
+            <footer id="piePagina">
+                <label class="texto">Todos los derechos reservados - 2022</label>
+                <ul>
+                    <li class="texto"><a href="">Red1</a></li>
+                    <li class="texto"><a href="">Red2</a></li>
+                    <li class="texto"><a href="">Red3</a></li>
+                </ul>
+            </footer>
+        </div>
+    </body>
+</html>
