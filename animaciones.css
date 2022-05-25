@@ -1,0 +1,14 @@
+#navegacion ul li a {
+    transition: transform .5s;
+}
+#navegacion ul li a:hover{
+    transform: translate(7px, -7px);
+}
+.galeriaImagenes img {
+    filter: grayscale(50%);
+    transition: all .5s;
+}
+.galeriaImagenes img:hover{
+    filter: grayscale(0%);
+    transform: scale(1.2);
+}
